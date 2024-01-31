@@ -1,6 +1,6 @@
-import java.util.ArrayList;
+package Done;
 
-//import com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+import java.util.ArrayList;
 
 
 public class balancedparanthesis {
@@ -38,10 +38,7 @@ public class balancedparanthesis {
 
 			}
 		}
-		if(st.empty())
-			return true;
-		else
-			return false;
+		return st.empty();
 
 	}
 	

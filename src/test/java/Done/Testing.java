@@ -1,3 +1,5 @@
+package Done;
+
 import java.util.Stack;
 
 public class Testing {
@@ -5,7 +7,7 @@ public class Testing {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a[]= {1,1,0,1,1,0};
+		int[] a = {1,1,0,1,1,0};
 		
 		Stack<Integer> st= new Stack<Integer>();
 		st.push(a[0]);
@@ -23,7 +25,7 @@ public class Testing {
 		while(!(st2.isEmpty())) {
 			st.push(st2.pop());
 		}
-		System.out.println(st.toString());
+		System.out.println(st);
 
 	}
 
