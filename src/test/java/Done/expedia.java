@@ -1,3 +1,5 @@
+package Done;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -26,7 +28,7 @@ public class expedia {
     public static int search(List<Integer> scoreList, int score) {
 
         if (scoreList.contains(score)) {
-            return scoreList.indexOf(score);
+            return scoreList.lastIndexOf(score);
         } else {
             int l=0;
             int r=scoreList.size()-1;
@@ -44,5 +46,5 @@ public class expedia {
             return closestInd;
         }
     }
-
 }
+
