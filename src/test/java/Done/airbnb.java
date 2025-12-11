@@ -1,3 +1,5 @@
+package Done;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -85,7 +87,7 @@ public class airbnb {
             startTime[i]= activities.get(i).get(0);
         }
         while(left<right){
-            int mid = left*(right-left+1)/2;
+            int mid = left+(right-left+1)/2;
             if(currentEndTime<=startTime[mid]){
                 nextIndex = mid;
                 right = mid-1;

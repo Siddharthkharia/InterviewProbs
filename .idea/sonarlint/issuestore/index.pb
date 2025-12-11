@@ -13,11 +13,3 @@ O
 src/test/java/Done/UBSTest.java,6/a/6a35d7cccf4982d51b1ebe96eea5aaef068904b4
 R
 "src/test/java/Done/serviceNow.java,0/f/0fb76a9c53d44ce03d747dd620d5a1ee3aa161e3
-I
-src/test/java/airbnb.java,c/9/c9482645bc48b635c965d1a8c4e0f29936bfbca3
-c
-3src/test/java/Done/BankAccountApis/BankAccount.java,3/1/3198f85c533827338b88e72216bdc4b278bf84e3
-f
-6src/test/java/Done/BankAccountApis/BankingService.java,a/f/af80fe3c645b0d7e29e04f0ca71699eb0c7850e1
-c
-3src/test/java/Done/BankAccountApis/Transaction.java,b/f/bf7c7a6f1ddbc2fdb829aac2207a1502ac15d3ec
